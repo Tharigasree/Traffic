@@ -1,0 +1,501 @@
+record_id,date,road_name,vehicle_count,average_speed_kmph,traffic_density,weather
+1,2024-01-01 00:00:00,Main Street,111,30,Low,Foggy
+2,2024-01-01 01:00:00,Bypass Road,133,23,Low,Clear
+3,2024-01-01 02:00:00,City Ring Road,417,34,Low,Rainy
+4,2024-01-01 03:00:00,Bypass Road,266,25,Low,Foggy
+5,2024-01-01 04:00:00,Bypass Road,391,73,High,Clear
+6,2024-01-01 05:00:00,NH-48,446,68,Low,Clear
+7,2024-01-01 06:00:00,City Ring Road,236,49,Medium,Clear
+8,2024-01-01 07:00:00,City Ring Road,68,75,Medium,Rainy
+9,2024-01-01 08:00:00,City Ring Road,226,57,Medium,Foggy
+10,2024-01-01 09:00:00,Bypass Road,149,70,High,Rainy
+11,2024-01-01 10:00:00,Main Street,445,76,Medium,Clear
+12,2024-01-01 11:00:00,City Ring Road,494,21,High,Rainy
+13,2024-01-01 12:00:00,Bypass Road,282,34,Medium,Foggy
+14,2024-01-01 13:00:00,NH-48,452,30,Medium,Rainy
+15,2024-01-01 14:00:00,Main Street,125,27,High,Foggy
+16,2024-01-01 15:00:00,NH-48,314,45,Low,Rainy
+17,2024-01-01 16:00:00,Main Street,333,70,Low,Rainy
+18,2024-01-01 17:00:00,Bypass Road,255,64,High,Clear
+19,2024-01-01 18:00:00,NH-44,272,63,Low,Clear
+20,2024-01-01 19:00:00,Main Street,433,24,High,Clear
+21,2024-01-01 20:00:00,NH-48,101,25,Medium,Rainy
+22,2024-01-01 21:00:00,Bypass Road,388,45,High,Clear
+23,2024-01-01 22:00:00,Main Street,416,73,High,Foggy
+24,2024-01-01 23:00:00,NH-44,193,23,Medium,Foggy
+25,2024-01-02 00:00:00,NH-44,422,38,High,Rainy
+26,2024-01-02 01:00:00,City Ring Road,118,39,Medium,Clear
+27,2024-01-02 02:00:00,City Ring Road,148,52,High,Clear
+28,2024-01-02 03:00:00,NH-48,445,39,Low,Clear
+29,2024-01-02 04:00:00,Main Street,74,68,Medium,Rainy
+30,2024-01-02 05:00:00,Main Street,485,31,Low,Rainy
+31,2024-01-02 06:00:00,City Ring Road,428,66,Medium,Foggy
+32,2024-01-02 07:00:00,Main Street,102,20,Low,Clear
+33,2024-01-02 08:00:00,Main Street,200,45,High,Foggy
+34,2024-01-02 09:00:00,NH-44,193,33,High,Foggy
+35,2024-01-02 10:00:00,City Ring Road,106,57,High,Clear
+36,2024-01-02 11:00:00,Bypass Road,88,56,Low,Foggy
+37,2024-01-02 12:00:00,City Ring Road,158,30,Medium,Clear
+38,2024-01-02 13:00:00,Bypass Road,230,55,Medium,Clear
+39,2024-01-02 14:00:00,NH-44,91,32,Medium,Rainy
+40,2024-01-02 15:00:00,NH-48,235,62,Medium,Clear
+41,2024-01-02 16:00:00,Main Street,472,22,Medium,Rainy
+42,2024-01-02 17:00:00,NH-44,447,52,High,Rainy
+43,2024-01-02 18:00:00,Main Street,272,25,Medium,Clear
+44,2024-01-02 19:00:00,NH-48,171,69,Medium,Clear
+45,2024-01-02 20:00:00,NH-48,182,75,Low,Clear
+46,2024-01-02 21:00:00,NH-44,212,29,Low,Clear
+47,2024-01-02 22:00:00,NH-48,264,24,Low,Clear
+48,2024-01-02 23:00:00,Bypass Road,270,42,High,Clear
+49,2024-01-03 00:00:00,NH-48,284,29,Low,Clear
+50,2024-01-03 01:00:00,Main Street,380,63,Low,Clear
+51,2024-01-03 02:00:00,Main Street,195,21,Medium,Clear
+52,2024-01-03 03:00:00,Main Street,288,32,High,Rainy
+53,2024-01-03 04:00:00,Main Street,125,59,High,Rainy
+54,2024-01-03 05:00:00,Bypass Road,58,21,High,Clear
+55,2024-01-03 06:00:00,City Ring Road,123,39,Medium,Clear
+56,2024-01-03 07:00:00,NH-44,491,20,Medium,Foggy
+57,2024-01-03 08:00:00,Main Street,450,56,Low,Rainy
+58,2024-01-03 09:00:00,NH-48,302,28,High,Foggy
+59,2024-01-03 10:00:00,Main Street,279,36,High,Rainy
+60,2024-01-03 11:00:00,NH-48,56,28,Medium,Clear
+61,2024-01-03 12:00:00,NH-48,223,30,High,Clear
+62,2024-01-03 13:00:00,Main Street,190,34,High,Clear
+63,2024-01-03 14:00:00,Bypass Road,217,43,Medium,Clear
+64,2024-01-03 15:00:00,NH-48,219,57,High,Clear
+65,2024-01-03 16:00:00,NH-48,442,74,High,Clear
+66,2024-01-03 17:00:00,Main Street,483,54,Medium,Clear
+67,2024-01-03 18:00:00,NH-48,332,49,Medium,Rainy
+68,2024-01-03 19:00:00,NH-48,171,50,Low,Rainy
+69,2024-01-03 20:00:00,Main Street,243,68,Medium,Clear
+70,2024-01-03 21:00:00,Main Street,54,24,Low,Rainy
+71,2024-01-03 22:00:00,NH-44,78,79,Medium,Clear
+72,2024-01-03 23:00:00,Bypass Road,214,63,High,Foggy
+73,2024-01-04 00:00:00,Bypass Road,471,69,Medium,Clear
+74,2024-01-04 01:00:00,NH-48,388,33,Medium,Foggy
+75,2024-01-04 02:00:00,Bypass Road,185,72,Medium,Rainy
+76,2024-01-04 03:00:00,NH-48,414,75,Low,Clear
+77,2024-01-04 04:00:00,NH-44,370,30,High,Clear
+78,2024-01-04 05:00:00,Main Street,391,28,Low,Clear
+79,2024-01-04 06:00:00,Main Street,194,53,Low,Clear
+80,2024-01-04 07:00:00,Main Street,376,31,Medium,Clear
+81,2024-01-04 08:00:00,Bypass Road,266,54,High,Rainy
+82,2024-01-04 09:00:00,NH-44,350,54,High,Clear
+83,2024-01-04 10:00:00,Bypass Road,181,20,Low,Rainy
+84,2024-01-04 11:00:00,Bypass Road,341,59,Medium,Foggy
+85,2024-01-04 12:00:00,NH-44,119,41,Medium,Clear
+86,2024-01-04 13:00:00,NH-44,301,79,Medium,Clear
+87,2024-01-04 14:00:00,NH-44,464,48,Medium,Clear
+88,2024-01-04 15:00:00,NH-44,324,27,Medium,Rainy
+89,2024-01-04 16:00:00,Main Street,494,30,Medium,Clear
+90,2024-01-04 17:00:00,City Ring Road,413,60,Medium,Foggy
+91,2024-01-04 18:00:00,City Ring Road,231,56,High,Rainy
+92,2024-01-04 19:00:00,NH-44,216,33,Medium,Clear
+93,2024-01-04 20:00:00,City Ring Road,140,79,Medium,Clear
+94,2024-01-04 21:00:00,City Ring Road,251,49,Medium,Foggy
+95,2024-01-04 22:00:00,NH-44,395,54,Medium,Rainy
+96,2024-01-04 23:00:00,City Ring Road,68,40,High,Clear
+97,2024-01-05 00:00:00,Bypass Road,88,56,Medium,Clear
+98,2024-01-05 01:00:00,NH-48,175,24,Medium,Rainy
+99,2024-01-05 02:00:00,NH-48,222,38,High,Clear
+100,2024-01-05 03:00:00,NH-44,190,78,Medium,Foggy
+101,2024-01-05 04:00:00,Main Street,291,33,Medium,Clear
+102,2024-01-05 05:00:00,NH-44,269,45,High,Clear
+103,2024-01-05 06:00:00,Main Street,175,23,Medium,Rainy
+104,2024-01-05 07:00:00,NH-48,107,44,Medium,Clear
+105,2024-01-05 08:00:00,NH-44,197,64,High,Clear
+106,2024-01-05 09:00:00,Bypass Road,366,61,Low,Clear
+107,2024-01-05 10:00:00,City Ring Road,432,44,Low,Clear
+108,2024-01-05 11:00:00,Main Street,410,37,Medium,Rainy
+109,2024-01-05 12:00:00,City Ring Road,472,59,High,Clear
+110,2024-01-05 13:00:00,City Ring Road,50,27,Low,Clear
+111,2024-01-05 14:00:00,NH-44,436,58,Low,Rainy
+112,2024-01-05 15:00:00,City Ring Road,397,59,Low,Rainy
+113,2024-01-05 16:00:00,Bypass Road,239,33,Low,Clear
+114,2024-01-05 17:00:00,City Ring Road,240,51,Low,Clear
+115,2024-01-05 18:00:00,NH-44,418,70,Medium,Foggy
+116,2024-01-05 19:00:00,Bypass Road,458,57,Medium,Rainy
+117,2024-01-05 20:00:00,NH-48,361,52,Low,Clear
+118,2024-01-05 21:00:00,City Ring Road,466,42,Medium,Clear
+119,2024-01-05 22:00:00,NH-44,471,34,Low,Clear
+120,2024-01-05 23:00:00,NH-48,166,52,Medium,Rainy
+121,2024-01-06 00:00:00,NH-48,183,44,Medium,Foggy
+122,2024-01-06 01:00:00,Main Street,107,36,High,Rainy
+123,2024-01-06 02:00:00,Bypass Road,93,52,Low,Rainy
+124,2024-01-06 03:00:00,City Ring Road,222,66,Medium,Rainy
+125,2024-01-06 04:00:00,NH-44,209,74,Low,Clear
+126,2024-01-06 05:00:00,Main Street,222,21,High,Clear
+127,2024-01-06 06:00:00,Bypass Road,366,33,High,Clear
+128,2024-01-06 07:00:00,Main Street,352,72,Medium,Clear
+129,2024-01-06 08:00:00,Bypass Road,198,59,Low,Foggy
+130,2024-01-06 09:00:00,Bypass Road,129,59,High,Clear
+131,2024-01-06 10:00:00,City Ring Road,423,70,Low,Clear
+132,2024-01-06 11:00:00,Bypass Road,262,58,Low,Clear
+133,2024-01-06 12:00:00,Main Street,252,70,Medium,Clear
+134,2024-01-06 13:00:00,Bypass Road,301,25,Low,Clear
+135,2024-01-06 14:00:00,City Ring Road,278,25,High,Clear
+136,2024-01-06 15:00:00,City Ring Road,213,22,High,Rainy
+137,2024-01-06 16:00:00,Main Street,276,26,Low,Clear
+138,2024-01-06 17:00:00,NH-48,196,70,Medium,Rainy
+139,2024-01-06 18:00:00,NH-48,69,27,High,Clear
+140,2024-01-06 19:00:00,Bypass Road,490,61,High,Clear
+141,2024-01-06 20:00:00,NH-44,451,71,Medium,Clear
+142,2024-01-06 21:00:00,Bypass Road,96,34,High,Clear
+143,2024-01-06 22:00:00,Main Street,282,66,High,Rainy
+144,2024-01-06 23:00:00,Main Street,354,48,High,Clear
+145,2024-01-07 00:00:00,Main Street,63,52,Low,Clear
+146,2024-01-07 01:00:00,Main Street,192,71,Medium,Rainy
+147,2024-01-07 02:00:00,Main Street,464,49,High,Clear
+148,2024-01-07 03:00:00,City Ring Road,50,58,Low,Clear
+149,2024-01-07 04:00:00,NH-48,422,46,High,Rainy
+150,2024-01-07 05:00:00,Main Street,103,55,Low,Rainy
+151,2024-01-07 06:00:00,NH-44,423,48,Low,Clear
+152,2024-01-07 07:00:00,NH-44,308,57,Medium,Foggy
+153,2024-01-07 08:00:00,NH-44,193,76,Low,Rainy
+154,2024-01-07 09:00:00,NH-44,490,52,High,Clear
+155,2024-01-07 10:00:00,City Ring Road,61,56,High,Rainy
+156,2024-01-07 11:00:00,NH-44,379,46,High,Clear
+157,2024-01-07 12:00:00,Main Street,273,74,Medium,Clear
+158,2024-01-07 13:00:00,Bypass Road,321,52,Low,Clear
+159,2024-01-07 14:00:00,NH-44,407,23,Medium,Clear
+160,2024-01-07 15:00:00,City Ring Road,457,41,Medium,Rainy
+161,2024-01-07 16:00:00,City Ring Road,205,21,Medium,Clear
+162,2024-01-07 17:00:00,NH-44,422,29,Low,Rainy
+163,2024-01-07 18:00:00,Bypass Road,57,24,Medium,Rainy
+164,2024-01-07 19:00:00,NH-44,171,78,Medium,Clear
+165,2024-01-07 20:00:00,City Ring Road,397,29,High,Rainy
+166,2024-01-07 21:00:00,NH-48,213,52,High,Clear
+167,2024-01-07 22:00:00,Main Street,139,73,Medium,Clear
+168,2024-01-07 23:00:00,City Ring Road,185,57,Medium,Rainy
+169,2024-01-08 00:00:00,NH-44,235,32,High,Clear
+170,2024-01-08 01:00:00,Main Street,365,50,Low,Clear
+171,2024-01-08 02:00:00,NH-44,227,66,High,Clear
+172,2024-01-08 03:00:00,NH-44,77,55,High,Clear
+173,2024-01-08 04:00:00,NH-48,269,64,Medium,Clear
+174,2024-01-08 05:00:00,Main Street,406,43,Medium,Clear
+175,2024-01-08 06:00:00,Main Street,90,71,Low,Foggy
+176,2024-01-08 07:00:00,NH-48,277,75,Medium,Clear
+177,2024-01-08 08:00:00,City Ring Road,241,34,Low,Clear
+178,2024-01-08 09:00:00,NH-44,460,48,High,Clear
+179,2024-01-08 10:00:00,Bypass Road,496,27,Low,Clear
+180,2024-01-08 11:00:00,NH-44,194,24,Medium,Foggy
+181,2024-01-08 12:00:00,NH-44,250,48,High,Rainy
+182,2024-01-08 13:00:00,City Ring Road,466,66,High,Rainy
+183,2024-01-08 14:00:00,NH-44,261,23,Low,Clear
+184,2024-01-08 15:00:00,NH-48,269,31,Low,Clear
+185,2024-01-08 16:00:00,NH-48,289,64,Low,Clear
+186,2024-01-08 17:00:00,Main Street,462,21,Medium,Rainy
+187,2024-01-08 18:00:00,Bypass Road,446,46,Low,Clear
+188,2024-01-08 19:00:00,NH-44,95,50,Medium,Clear
+189,2024-01-08 20:00:00,NH-44,84,70,High,Foggy
+190,2024-01-08 21:00:00,City Ring Road,302,70,Low,Clear
+191,2024-01-08 22:00:00,NH-48,439,55,High,Clear
+192,2024-01-08 23:00:00,Bypass Road,131,55,High,Clear
+193,2024-01-09 00:00:00,Main Street,420,45,Low,Foggy
+194,2024-01-09 01:00:00,NH-48,305,62,High,Clear
+195,2024-01-09 02:00:00,Main Street,246,46,Medium,Rainy
+196,2024-01-09 03:00:00,City Ring Road,352,24,High,Rainy
+197,2024-01-09 04:00:00,City Ring Road,458,39,Medium,Clear
+198,2024-01-09 05:00:00,NH-44,499,30,Medium,Rainy
+199,2024-01-09 06:00:00,Bypass Road,59,29,Medium,Clear
+200,2024-01-09 07:00:00,Main Street,361,59,High,Clear
+201,2024-01-09 08:00:00,NH-48,335,57,High,Rainy
+202,2024-01-09 09:00:00,City Ring Road,291,25,Medium,Foggy
+203,2024-01-09 10:00:00,NH-44,300,27,High,Rainy
+204,2024-01-09 11:00:00,NH-44,414,42,Low,Clear
+205,2024-01-09 12:00:00,Main Street,54,66,Low,Clear
+206,2024-01-09 13:00:00,City Ring Road,168,45,Low,Clear
+207,2024-01-09 14:00:00,Bypass Road,338,65,Medium,Clear
+208,2024-01-09 15:00:00,City Ring Road,423,62,Low,Clear
+209,2024-01-09 16:00:00,Main Street,114,31,High,Clear
+210,2024-01-09 17:00:00,Main Street,195,45,Low,Clear
+211,2024-01-09 18:00:00,City Ring Road,273,32,Medium,Clear
+212,2024-01-09 19:00:00,Main Street,288,59,Low,Clear
+213,2024-01-09 20:00:00,City Ring Road,226,37,High,Clear
+214,2024-01-09 21:00:00,NH-48,316,44,High,Rainy
+215,2024-01-09 22:00:00,City Ring Road,390,52,Medium,Clear
+216,2024-01-09 23:00:00,City Ring Road,331,66,High,Foggy
+217,2024-01-10 00:00:00,Main Street,112,59,Low,Foggy
+218,2024-01-10 01:00:00,Main Street,266,79,High,Clear
+219,2024-01-10 02:00:00,NH-44,391,62,Low,Rainy
+220,2024-01-10 03:00:00,NH-44,364,31,High,Clear
+221,2024-01-10 04:00:00,NH-48,332,63,Low,Clear
+222,2024-01-10 05:00:00,NH-44,226,55,Medium,Clear
+223,2024-01-10 06:00:00,City Ring Road,466,67,High,Clear
+224,2024-01-10 07:00:00,Main Street,147,23,Low,Clear
+225,2024-01-10 08:00:00,NH-44,154,24,Low,Clear
+226,2024-01-10 09:00:00,NH-44,148,75,Low,Rainy
+227,2024-01-10 10:00:00,NH-48,434,56,Medium,Rainy
+228,2024-01-10 11:00:00,NH-48,454,27,Medium,Clear
+229,2024-01-10 12:00:00,City Ring Road,360,61,Low,Rainy
+230,2024-01-10 13:00:00,Main Street,55,68,Medium,Clear
+231,2024-01-10 14:00:00,NH-48,246,47,Low,Clear
+232,2024-01-10 15:00:00,NH-44,400,50,High,Rainy
+233,2024-01-10 16:00:00,Main Street,182,77,Low,Clear
+234,2024-01-10 17:00:00,Main Street,407,28,Low,Clear
+235,2024-01-10 18:00:00,NH-44,308,73,Low,Clear
+236,2024-01-10 19:00:00,NH-48,486,70,Medium,Clear
+237,2024-01-10 20:00:00,NH-44,72,48,High,Foggy
+238,2024-01-10 21:00:00,Main Street,102,33,Medium,Clear
+239,2024-01-10 22:00:00,Bypass Road,214,59,Low,Foggy
+240,2024-01-10 23:00:00,Bypass Road,251,60,High,Clear
+241,2024-01-11 00:00:00,City Ring Road,132,41,High,Clear
+242,2024-01-11 01:00:00,NH-44,194,30,Low,Clear
+243,2024-01-11 02:00:00,NH-44,134,42,High,Rainy
+244,2024-01-11 03:00:00,City Ring Road,127,20,High,Clear
+245,2024-01-11 04:00:00,City Ring Road,415,65,Low,Foggy
+246,2024-01-11 05:00:00,City Ring Road,50,56,High,Rainy
+247,2024-01-11 06:00:00,Main Street,100,40,High,Clear
+248,2024-01-11 07:00:00,NH-44,222,45,Medium,Foggy
+249,2024-01-11 08:00:00,Main Street,254,65,Low,Rainy
+250,2024-01-11 09:00:00,City Ring Road,309,55,Low,Rainy
+251,2024-01-11 10:00:00,NH-44,495,73,High,Clear
+252,2024-01-11 11:00:00,Main Street,498,42,High,Clear
+253,2024-01-11 12:00:00,Main Street,418,76,Medium,Clear
+254,2024-01-11 13:00:00,City Ring Road,337,20,Medium,Clear
+255,2024-01-11 14:00:00,NH-44,83,73,Medium,Clear
+256,2024-01-11 15:00:00,City Ring Road,397,74,Medium,Rainy
+257,2024-01-11 16:00:00,NH-44,144,70,Medium,Clear
+258,2024-01-11 17:00:00,Bypass Road,121,59,Low,Clear
+259,2024-01-11 18:00:00,NH-48,88,34,High,Foggy
+260,2024-01-11 19:00:00,NH-48,203,40,Medium,Foggy
+261,2024-01-11 20:00:00,NH-48,299,66,High,Clear
+262,2024-01-11 21:00:00,City Ring Road,211,28,Low,Foggy
+263,2024-01-11 22:00:00,Bypass Road,487,72,Low,Clear
+264,2024-01-11 23:00:00,NH-44,167,28,Low,Clear
+265,2024-01-12 00:00:00,Main Street,308,29,Medium,Rainy
+266,2024-01-12 01:00:00,NH-44,428,71,High,Clear
+267,2024-01-12 02:00:00,Main Street,355,76,Low,Clear
+268,2024-01-12 03:00:00,NH-44,317,72,High,Clear
+269,2024-01-12 04:00:00,Bypass Road,498,45,Medium,Clear
+270,2024-01-12 05:00:00,Main Street,103,60,High,Clear
+271,2024-01-12 06:00:00,City Ring Road,285,54,Low,Clear
+272,2024-01-12 07:00:00,NH-44,438,71,High,Rainy
+273,2024-01-12 08:00:00,NH-44,271,44,High,Rainy
+274,2024-01-12 09:00:00,Main Street,300,45,Low,Clear
+275,2024-01-12 10:00:00,City Ring Road,362,30,Low,Clear
+276,2024-01-12 11:00:00,City Ring Road,450,57,High,Clear
+277,2024-01-12 12:00:00,Bypass Road,161,21,High,Clear
+278,2024-01-12 13:00:00,City Ring Road,304,26,Low,Rainy
+279,2024-01-12 14:00:00,City Ring Road,352,37,High,Clear
+280,2024-01-12 15:00:00,City Ring Road,456,46,High,Clear
+281,2024-01-12 16:00:00,NH-48,256,53,High,Rainy
+282,2024-01-12 17:00:00,Bypass Road,278,46,High,Rainy
+283,2024-01-12 18:00:00,NH-44,390,36,High,Rainy
+284,2024-01-12 19:00:00,Main Street,447,62,Medium,Clear
+285,2024-01-12 20:00:00,NH-44,115,78,Medium,Clear
+286,2024-01-12 21:00:00,Bypass Road,124,63,Medium,Clear
+287,2024-01-12 22:00:00,Main Street,484,78,High,Clear
+288,2024-01-12 23:00:00,Bypass Road,152,70,High,Rainy
+289,2024-01-13 00:00:00,City Ring Road,471,73,Low,Rainy
+290,2024-01-13 01:00:00,Main Street,241,43,High,Rainy
+291,2024-01-13 02:00:00,City Ring Road,301,44,High,Rainy
+292,2024-01-13 03:00:00,NH-44,275,26,Medium,Clear
+293,2024-01-13 04:00:00,NH-44,343,71,Medium,Rainy
+294,2024-01-13 05:00:00,Main Street,355,25,Medium,Clear
+295,2024-01-13 06:00:00,Main Street,147,72,Low,Clear
+296,2024-01-13 07:00:00,Bypass Road,387,43,Low,Clear
+297,2024-01-13 08:00:00,Bypass Road,335,52,Low,Clear
+298,2024-01-13 09:00:00,City Ring Road,384,68,Low,Clear
+299,2024-01-13 10:00:00,Main Street,396,48,Medium,Foggy
+300,2024-01-13 11:00:00,NH-44,484,62,Medium,Clear
+301,2024-01-13 12:00:00,Bypass Road,496,41,Low,Clear
+302,2024-01-13 13:00:00,Bypass Road,357,45,High,Clear
+303,2024-01-13 14:00:00,NH-44,298,47,Low,Rainy
+304,2024-01-13 15:00:00,Bypass Road,215,69,High,Clear
+305,2024-01-13 16:00:00,City Ring Road,384,40,High,Rainy
+306,2024-01-13 17:00:00,Main Street,79,68,Low,Clear
+307,2024-01-13 18:00:00,NH-44,296,26,Medium,Rainy
+308,2024-01-13 19:00:00,Main Street,155,36,Low,Clear
+309,2024-01-13 20:00:00,Bypass Road,100,39,Medium,Rainy
+310,2024-01-13 21:00:00,Bypass Road,130,60,Medium,Rainy
+311,2024-01-13 22:00:00,NH-44,182,68,Low,Clear
+312,2024-01-13 23:00:00,City Ring Road,334,39,Medium,Clear
+313,2024-01-14 00:00:00,NH-48,437,73,Low,Clear
+314,2024-01-14 01:00:00,NH-44,187,41,Low,Clear
+315,2024-01-14 02:00:00,NH-48,233,47,Medium,Clear
+316,2024-01-14 03:00:00,NH-48,450,59,Medium,Rainy
+317,2024-01-14 04:00:00,City Ring Road,379,68,Medium,Clear
+318,2024-01-14 05:00:00,NH-48,322,26,Medium,Clear
+319,2024-01-14 06:00:00,NH-48,389,20,High,Clear
+320,2024-01-14 07:00:00,City Ring Road,118,51,Low,Clear
+321,2024-01-14 08:00:00,NH-48,83,32,Medium,Foggy
+322,2024-01-14 09:00:00,NH-48,311,49,Medium,Clear
+323,2024-01-14 10:00:00,NH-48,102,42,Medium,Rainy
+324,2024-01-14 11:00:00,NH-44,499,70,High,Rainy
+325,2024-01-14 12:00:00,NH-44,254,78,High,Rainy
+326,2024-01-14 13:00:00,NH-44,175,75,Medium,Foggy
+327,2024-01-14 14:00:00,City Ring Road,284,38,High,Clear
+328,2024-01-14 15:00:00,Bypass Road,92,51,High,Foggy
+329,2024-01-14 16:00:00,NH-48,289,49,High,Clear
+330,2024-01-14 17:00:00,NH-48,420,48,High,Clear
+331,2024-01-14 18:00:00,City Ring Road,160,68,High,Rainy
+332,2024-01-14 19:00:00,NH-48,298,64,Low,Foggy
+333,2024-01-14 20:00:00,NH-44,200,48,Low,Rainy
+334,2024-01-14 21:00:00,Bypass Road,232,49,Medium,Clear
+335,2024-01-14 22:00:00,Main Street,385,35,Low,Clear
+336,2024-01-14 23:00:00,NH-48,144,59,Medium,Foggy
+337,2024-01-15 00:00:00,NH-44,423,38,Low,Clear
+338,2024-01-15 01:00:00,Main Street,449,37,Medium,Rainy
+339,2024-01-15 02:00:00,Bypass Road,57,20,High,Rainy
+340,2024-01-15 03:00:00,Main Street,437,33,High,Clear
+341,2024-01-15 04:00:00,NH-44,409,70,Low,Clear
+342,2024-01-15 05:00:00,Main Street,437,66,Medium,Clear
+343,2024-01-15 06:00:00,City Ring Road,233,69,High,Clear
+344,2024-01-15 07:00:00,Main Street,330,21,Low,Foggy
+345,2024-01-15 08:00:00,NH-48,244,73,High,Clear
+346,2024-01-15 09:00:00,NH-48,401,47,Medium,Foggy
+347,2024-01-15 10:00:00,City Ring Road,244,68,Medium,Clear
+348,2024-01-15 11:00:00,NH-44,204,69,High,Foggy
+349,2024-01-15 12:00:00,NH-48,142,49,Low,Clear
+350,2024-01-15 13:00:00,Bypass Road,209,57,Medium,Clear
+351,2024-01-15 14:00:00,NH-48,483,70,High,Clear
+352,2024-01-15 15:00:00,NH-48,110,23,Low,Rainy
+353,2024-01-15 16:00:00,NH-44,171,20,Medium,Rainy
+354,2024-01-15 17:00:00,Main Street,100,27,High,Rainy
+355,2024-01-15 18:00:00,NH-48,452,48,Low,Clear
+356,2024-01-15 19:00:00,City Ring Road,326,74,High,Clear
+357,2024-01-15 20:00:00,Main Street,54,58,Medium,Clear
+358,2024-01-15 21:00:00,Bypass Road,141,22,Medium,Clear
+359,2024-01-15 22:00:00,NH-44,219,51,Medium,Clear
+360,2024-01-15 23:00:00,Bypass Road,366,29,Low,Foggy
+361,2024-01-16 00:00:00,Main Street,71,29,High,Foggy
+362,2024-01-16 01:00:00,Main Street,454,38,High,Foggy
+363,2024-01-16 02:00:00,Main Street,375,65,Medium,Rainy
+364,2024-01-16 03:00:00,Bypass Road,50,53,High,Clear
+365,2024-01-16 04:00:00,Main Street,182,79,Medium,Clear
+366,2024-01-16 05:00:00,Bypass Road,282,52,Medium,Clear
+367,2024-01-16 06:00:00,Main Street,61,42,Medium,Rainy
+368,2024-01-16 07:00:00,City Ring Road,395,74,Medium,Clear
+369,2024-01-16 08:00:00,Main Street,95,47,Medium,Clear
+370,2024-01-16 09:00:00,Bypass Road,83,51,High,Clear
+371,2024-01-16 10:00:00,NH-48,482,69,Medium,Clear
+372,2024-01-16 11:00:00,Main Street,127,26,Low,Foggy
+373,2024-01-16 12:00:00,NH-48,267,48,Low,Rainy
+374,2024-01-16 13:00:00,City Ring Road,350,27,Medium,Clear
+375,2024-01-16 14:00:00,NH-44,460,20,High,Foggy
+376,2024-01-16 15:00:00,City Ring Road,122,76,Medium,Rainy
+377,2024-01-16 16:00:00,Main Street,331,74,Medium,Clear
+378,2024-01-16 17:00:00,NH-48,298,22,Medium,Clear
+379,2024-01-16 18:00:00,NH-48,96,43,Medium,Clear
+380,2024-01-16 19:00:00,Bypass Road,170,42,Medium,Clear
+381,2024-01-16 20:00:00,NH-48,263,78,Medium,Foggy
+382,2024-01-16 21:00:00,Bypass Road,288,27,High,Clear
+383,2024-01-16 22:00:00,NH-44,105,73,High,Foggy
+384,2024-01-16 23:00:00,Main Street,399,76,Medium,Clear
+385,2024-01-17 00:00:00,Bypass Road,156,66,Low,Clear
+386,2024-01-17 01:00:00,NH-44,368,56,Low,Clear
+387,2024-01-17 02:00:00,NH-48,97,22,Low,Clear
+388,2024-01-17 03:00:00,NH-48,110,70,Medium,Clear
+389,2024-01-17 04:00:00,NH-44,386,52,Medium,Foggy
+390,2024-01-17 05:00:00,NH-48,75,47,Medium,Clear
+391,2024-01-17 06:00:00,NH-44,341,66,Medium,Rainy
+392,2024-01-17 07:00:00,Bypass Road,306,27,Low,Clear
+393,2024-01-17 08:00:00,Bypass Road,57,53,Medium,Clear
+394,2024-01-17 09:00:00,NH-44,162,54,Low,Clear
+395,2024-01-17 10:00:00,Bypass Road,404,51,Medium,Clear
+396,2024-01-17 11:00:00,Bypass Road,302,43,Low,Clear
+397,2024-01-17 12:00:00,Bypass Road,229,33,High,Clear
+398,2024-01-17 13:00:00,City Ring Road,256,51,Low,Clear
+399,2024-01-17 14:00:00,Main Street,352,75,High,Clear
+400,2024-01-17 15:00:00,NH-48,176,65,Medium,Clear
+401,2024-01-17 16:00:00,City Ring Road,105,62,High,Clear
+402,2024-01-17 17:00:00,Bypass Road,263,35,Medium,Foggy
+403,2024-01-17 18:00:00,NH-44,63,23,High,Rainy
+404,2024-01-17 19:00:00,Bypass Road,77,71,High,Clear
+405,2024-01-17 20:00:00,Main Street,127,56,Medium,Clear
+406,2024-01-17 21:00:00,Bypass Road,265,73,Medium,Foggy
+407,2024-01-17 22:00:00,NH-44,435,40,Medium,Rainy
+408,2024-01-17 23:00:00,Main Street,414,33,Medium,Clear
+409,2024-01-18 00:00:00,Bypass Road,203,50,Low,Foggy
+410,2024-01-18 01:00:00,Main Street,63,74,Medium,Clear
+411,2024-01-18 02:00:00,NH-48,236,67,Medium,Clear
+412,2024-01-18 03:00:00,NH-48,361,37,Medium,Rainy
+413,2024-01-18 04:00:00,Bypass Road,420,26,High,Clear
+414,2024-01-18 05:00:00,Main Street,56,29,Medium,Foggy
+415,2024-01-18 06:00:00,NH-44,52,26,High,Rainy
+416,2024-01-18 07:00:00,Bypass Road,160,52,Low,Clear
+417,2024-01-18 08:00:00,NH-48,456,42,Medium,Clear
+418,2024-01-18 09:00:00,NH-48,287,40,Medium,Clear
+419,2024-01-18 10:00:00,Bypass Road,412,38,Medium,Clear
+420,2024-01-18 11:00:00,Main Street,288,67,High,Rainy
+421,2024-01-18 12:00:00,NH-48,323,38,Low,Clear
+422,2024-01-18 13:00:00,Main Street,343,55,High,Clear
+423,2024-01-18 14:00:00,NH-48,276,48,Medium,Rainy
+424,2024-01-18 15:00:00,NH-48,420,79,Medium,Clear
+425,2024-01-18 16:00:00,City Ring Road,64,37,Medium,Rainy
+426,2024-01-18 17:00:00,NH-48,241,21,Medium,Clear
+427,2024-01-18 18:00:00,NH-44,168,20,Medium,Foggy
+428,2024-01-18 19:00:00,Bypass Road,77,66,Medium,Clear
+429,2024-01-18 20:00:00,Bypass Road,251,24,Low,Clear
+430,2024-01-18 21:00:00,Main Street,88,39,Medium,Clear
+431,2024-01-18 22:00:00,NH-48,490,30,Low,Clear
+432,2024-01-18 23:00:00,NH-44,322,61,Medium,Rainy
+433,2024-01-19 00:00:00,Main Street,280,21,Medium,Rainy
+434,2024-01-19 01:00:00,City Ring Road,135,22,Medium,Rainy
+435,2024-01-19 02:00:00,Main Street,175,42,Medium,Clear
+436,2024-01-19 03:00:00,Main Street,349,74,Low,Clear
+437,2024-01-19 04:00:00,NH-48,74,31,Medium,Clear
+438,2024-01-19 05:00:00,City Ring Road,194,39,Medium,Clear
+439,2024-01-19 06:00:00,Main Street,62,24,Medium,Foggy
+440,2024-01-19 07:00:00,NH-44,261,56,High,Clear
+441,2024-01-19 08:00:00,NH-44,74,57,Low,Clear
+442,2024-01-19 09:00:00,Bypass Road,117,49,Medium,Clear
+443,2024-01-19 10:00:00,City Ring Road,443,28,Medium,Rainy
+444,2024-01-19 11:00:00,City Ring Road,116,53,Medium,Rainy
+445,2024-01-19 12:00:00,Bypass Road,282,72,Low,Foggy
+446,2024-01-19 13:00:00,Main Street,158,63,Low,Clear
+447,2024-01-19 14:00:00,City Ring Road,195,54,High,Clear
+448,2024-01-19 15:00:00,NH-44,160,71,Medium,Foggy
+449,2024-01-19 16:00:00,NH-44,277,77,Medium,Rainy
+450,2024-01-19 17:00:00,NH-48,160,41,Medium,Clear
+451,2024-01-19 18:00:00,City Ring Road,83,63,Medium,Rainy
+452,2024-01-19 19:00:00,Main Street,160,43,Low,Rainy
+453,2024-01-19 20:00:00,Bypass Road,313,36,Medium,Rainy
+454,2024-01-19 21:00:00,Bypass Road,473,29,Medium,Rainy
+455,2024-01-19 22:00:00,Main Street,418,49,High,Clear
+456,2024-01-19 23:00:00,NH-48,285,75,Low,Clear
+457,2024-01-20 00:00:00,Bypass Road,132,78,Medium,Clear
+458,2024-01-20 01:00:00,City Ring Road,91,65,Medium,Rainy
+459,2024-01-20 02:00:00,NH-48,474,42,Medium,Rainy
+460,2024-01-20 03:00:00,City Ring Road,150,51,Medium,Rainy
+461,2024-01-20 04:00:00,NH-44,55,36,Medium,Clear
+462,2024-01-20 05:00:00,NH-48,229,69,High,Rainy
+463,2024-01-20 06:00:00,Bypass Road,331,70,High,Rainy
+464,2024-01-20 07:00:00,NH-48,369,36,Medium,Rainy
+465,2024-01-20 08:00:00,NH-48,275,33,High,Rainy
+466,2024-01-20 09:00:00,NH-48,492,28,Medium,Rainy
+467,2024-01-20 10:00:00,NH-48,489,59,Medium,Clear
+468,2024-01-20 11:00:00,City Ring Road,364,21,Low,Clear
+469,2024-01-20 12:00:00,NH-44,414,64,High,Clear
+470,2024-01-20 13:00:00,Main Street,278,44,Low,Clear
+471,2024-01-20 14:00:00,NH-48,426,58,Low,Rainy
+472,2024-01-20 15:00:00,Bypass Road,338,28,Low,Rainy
+473,2024-01-20 16:00:00,NH-48,486,73,Medium,Clear
+474,2024-01-20 17:00:00,Bypass Road,199,41,Low,Clear
+475,2024-01-20 18:00:00,City Ring Road,326,62,Low,Rainy
+476,2024-01-20 19:00:00,Bypass Road,247,65,Low,Clear
+477,2024-01-20 20:00:00,Main Street,119,23,Low,Clear
+478,2024-01-20 21:00:00,NH-44,161,45,Medium,Clear
+479,2024-01-20 22:00:00,Bypass Road,53,77,Medium,Clear
+480,2024-01-20 23:00:00,Bypass Road,399,48,Medium,Clear
+481,2024-01-21 00:00:00,NH-44,380,64,Medium,Clear
+482,2024-01-21 01:00:00,Main Street,495,53,Medium,Clear
+483,2024-01-21 02:00:00,NH-48,367,42,Low,Foggy
+484,2024-01-21 03:00:00,Bypass Road,399,56,Medium,Clear
+485,2024-01-21 04:00:00,NH-44,144,30,High,Rainy
+486,2024-01-21 05:00:00,City Ring Road,201,25,Medium,Clear
+487,2024-01-21 06:00:00,NH-44,360,37,Low,Clear
+488,2024-01-21 07:00:00,City Ring Road,186,40,Medium,Rainy
+489,2024-01-21 08:00:00,Main Street,296,61,Medium,Clear
+490,2024-01-21 09:00:00,NH-48,436,55,Medium,Clear
+491,2024-01-21 10:00:00,NH-44,292,60,Low,Clear
+492,2024-01-21 11:00:00,Bypass Road,80,57,Low,Rainy
+493,2024-01-21 12:00:00,Main Street,89,53,Low,Clear
+494,2024-01-21 13:00:00,NH-44,278,36,High,Clear
+495,2024-01-21 14:00:00,Bypass Road,85,56,High,Rainy
+496,2024-01-21 15:00:00,NH-44,457,44,Low,Clear
+497,2024-01-21 16:00:00,City Ring Road,272,57,Low,Rainy
+498,2024-01-21 17:00:00,NH-44,55,77,High,Rainy
+499,2024-01-21 18:00:00,NH-44,371,31,Low,Foggy
+500,2024-01-21 19:00:00,NH-44,269,42,Low,Clear
